@@ -3,3 +3,5 @@
 // it should then send back jsonData on a GET to /data
 
 var express = require('express');
+
+var app = express();
