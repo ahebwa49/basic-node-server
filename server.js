@@ -7,3 +7,7 @@ var express = require('express');
 var app = express();
 
 var jsonData = {count: 12, message: 'hey'};
+
+app.get('/', function(req, res){
+  res.sendFile(__filename + '/index.html')
+})
